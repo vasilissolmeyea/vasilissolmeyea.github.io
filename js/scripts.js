@@ -591,6 +591,6 @@ function displayContent() {
 
 document.addEventListener("DOMContentLoaded", function() {
     loader = document.getElementById('loader');
-    loadNow(7;
+    loadNow(7);
    
 });
