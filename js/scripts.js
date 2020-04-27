@@ -590,5 +590,5 @@ function displayContent() {
 
 document.addEventListener("DOMContentLoaded", function() {
     loader = document.getElementById('loader');
-    loadNow(5);
+    loadNow(6.5);
 });
