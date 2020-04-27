@@ -587,7 +587,6 @@ function displayContent() {
     loader.style.display = 'none';
     document.getElementById('content').style.display = 'block';
 }
-$(".loader").delay(400).fadeOut("slow");
 
 document.addEventListener("DOMContentLoaded", function() {
     loader = document.getElementById('loader');
