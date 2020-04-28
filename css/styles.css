@@ -10888,6 +10888,8 @@ section#services {
   background-size:100%;
   line-height: 0px;
   background-position: 50px;
+  width:100%;
+  height:auto;
 }
 section#contact .section-heading {
   color: #fff;
