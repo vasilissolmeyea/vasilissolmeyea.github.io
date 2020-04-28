@@ -10885,6 +10885,8 @@ section#services {
   background-position: 50px;
   width:100%;
   height:auto;
+  max-width:100%;
+  min-width:100%;
 }
 section#contact .section-heading {
   color: #fff;
