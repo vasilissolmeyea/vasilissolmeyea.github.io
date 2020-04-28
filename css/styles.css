@@ -47,8 +47,6 @@
 }
 
 html {
-   overflow-x: hidden;!important;
-    width: 100%;!important;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -61,8 +59,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-   overflow-x: hidden;!important;
-    width: 100%;!important;
   font-family: "Helvetica Neue";
   line-height: 1.5;
   color: #212529;
