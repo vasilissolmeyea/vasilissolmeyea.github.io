@@ -594,3 +594,12 @@ document.addEventListener("DOMContentLoaded", function() {
     loadNow(6);
    
 });
+document.addEventListener('touchmove', function (event) {
+  if (event.scale !== 1) { event.preventDefault(); }
+}, false);
+
+ var offset = window.pageXOffset;
+    $(window).scroll(function () {
+        if(offset != window.pageXOffset)
+            window.scrollTo(0, window.pageYOffset);
+    });
