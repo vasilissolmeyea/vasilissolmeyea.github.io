@@ -10759,7 +10759,7 @@ header.masthead .masthead-heading {
     height: auto;
     left: -217px;
     top: 5208px;
-    overflow: visible;
+    overflow: hidden;
     background-color: #252629;
 
   }
@@ -10767,6 +10767,7 @@ header.masthead .masthead-heading {
     position: absolute;
     display: flex;
     flex-flow: row nowrap;
+    overflow: hidden;
   }
   .slider-instant {
     transition: none;
@@ -10777,6 +10778,7 @@ header.masthead .masthead-heading {
   .slider-extra {
     display: flex;
     flex-flow: row nowrap;
+    overflow: hidden;
   }
   .slider-last {
     min-width: 100%;
@@ -10797,17 +10799,20 @@ header.masthead .masthead-heading {
     height: 180px;
     max-width: 400px; 
     max-height: 400px;
+    overflow: hidden;
 
   }
   #slider-container-2{
     height: auto;
     width: 100%; 
     top: 5808px;
+    overflow: hidden;
   }
   .slider2 {
     position: absolute;
     display: flex;
     flex-flow: row nowrap;
+    overflow: hidden;
   }
   .slider2-instant {
     transition: none;
@@ -10818,11 +10823,13 @@ header.masthead .masthead-heading {
   .slider2-extra {
     display: flex;
     flex-flow: row nowrap;
+    overflow: hidden;
   }
   .slider2-last {
     min-width: 100%;
     max-width: 100%;
     overflow: hidden;
+    
   }
   .slider2 span {
     margin-right: 30px;
@@ -10839,6 +10846,7 @@ header.masthead .masthead-heading {
     max-width: 400px; 
     max-height: 400px;
     margin-top: 200px;
+    overflow: hidden;
       
   }
 
@@ -10849,6 +10857,7 @@ header.masthead .masthead-heading {
     position: absolute;
     display: flex;
     flex-flow: row nowrap;
+    overflow: hidden;
   }
   .slider3-instant {
     transition: none;
@@ -10859,6 +10868,7 @@ header.masthead .masthead-heading {
   .slider3-extra {
     display: flex;
     flex-flow: row nowrap;
+    overflow: hidden;
   }
   .slider3-last {
     min-width: 100%;
@@ -10876,6 +10886,7 @@ header.masthead .masthead-heading {
     width: 280px;
     height: 180px;
     margin-top:405px;
+    overflow: hidden;
       
   }
 section#contact {
