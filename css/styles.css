@@ -10755,8 +10755,8 @@ header.masthead .masthead-heading {
 
   #slider-container {
     position: absolute;
-    width: 2395px;
-    height: 566px;
+    width: 100%;
+    height: auto;
     left: -217px;
     top: 5208px;
     overflow: visible;
@@ -10800,8 +10800,8 @@ header.masthead .masthead-heading {
 
   }
   #slider-container-2{
-    height: 566px;
-    width: 1000vw; 
+    height: auto;
+    width: 100%; 
     top: 5808px;
   }
   .slider2 {
