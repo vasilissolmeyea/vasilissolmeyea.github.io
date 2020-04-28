@@ -10897,11 +10897,11 @@ section#contact form#contactForm .form-group {
 }
 section#contact form#contactForm .form-group input,
 section#contact form#contactForm .form-group textarea {
-  padding: 1.25rem;
+  padding: 2.25rem;
   line-height:0px;
 }
 section#contact form#contactForm .form-group input.form-control {
-  height: auto;
+  height: 100px;
 }
 section#contact form#contactForm .form-group-textarea {
   height: 100%;
