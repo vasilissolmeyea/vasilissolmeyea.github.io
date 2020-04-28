@@ -58,6 +58,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
+  overflow-x: hidden !important;
   margin: 0;
   font-family: "Helvetica Neue";
   line-height: 1.5;
@@ -715,12 +716,23 @@ pre code {
 }
 
 .container {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
   width: 100%;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
   margin-right: auto;
   margin-left: auto;
 }
+@media screen and (max-width: 667px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+/* }
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -741,7 +753,7 @@ pre code {
     max-width: 1140px;
   }
 }
-
+ */
 .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
   width: 100%;
   padding-right: 0.75rem;
