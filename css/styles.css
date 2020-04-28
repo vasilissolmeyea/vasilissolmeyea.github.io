@@ -716,7 +716,6 @@ pre code {
 }
 
 .container {
-  max-width: 100% !important;
   overflow-x: hidden !important;
   width: 100%;
   padding-right: 0.75rem;
