@@ -730,9 +730,8 @@ pre code {
     }
     .container {
         max-width: 100% !important;
-        overflow-x: hidden !important;
-    }
-/* }
+        overflow-x: hidden !important;  }
+  }
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -753,7 +752,7 @@ pre code {
     max-width: 1140px;
   }
 }
- */
+
 .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
   width: 100%;
   padding-right: 0.75rem;
