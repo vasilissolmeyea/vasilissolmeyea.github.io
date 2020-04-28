@@ -603,3 +603,10 @@ document.addEventListener('touchmove', function (event) {
         if(offset != window.pageXOffset)
             window.scrollTo(0, window.pageYOffset);
     });
+<!-- START: Mobile Autoplay Video -->
+<script>
+var mobilevideo = document.getElementsByTagName("video")[0];
+mobilevideo.setAttribute("playsinline", "");
+mobilevideo.setAttribute("muted", "");
+</script>
+<!-- END: Mobile Autoplay Video -->
