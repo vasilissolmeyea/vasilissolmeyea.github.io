@@ -58,7 +58,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
-  overflow-x: hidden !important;
+/*   overflow-x: hidden !important; */
   margin: 0;
   font-family: "Helvetica Neue";
   line-height: 1.5;
