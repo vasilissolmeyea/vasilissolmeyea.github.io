@@ -594,8 +594,3 @@ document.addEventListener("DOMContentLoaded", function() {
     loadNow(6);
    
 });
-
-var mobilevideo = document.getElementsByTagName("video")[0];
-mobilevideo.setAttribute("playsinline", "");
-mobilevideo.setAttribute("muted", "");
-
