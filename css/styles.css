@@ -10755,8 +10755,7 @@ header.masthead .masthead-heading {
     left: -217px;
     top: 5208px;
     background-color: #252629;
-    overflow:hidden;
-
+    overflow:visible;
   }
   .slider {
     position: absolute;
@@ -10776,7 +10775,6 @@ header.masthead .masthead-heading {
   .slider-last {
     min-width: 100vw;
     max-width: 100vw;
-    overflow: hidden;
   }
   .slider span {
     margin-right: 30px;
@@ -10817,8 +10815,7 @@ header.masthead .masthead-heading {
   .slider2-last {
     min-width: 100vw;
     max-width: 100vw;
-    overflow: hidden;
-  }
+}
   .slider2 span {
     margin-right: 30px;
   }
@@ -10858,7 +10855,6 @@ header.masthead .masthead-heading {
   .slider3-last {
     min-width: 100vw;
     max-width: 100vw;
-    overflow: hidden;
   }
   .slider3 span {
     margin-right: 30px;
