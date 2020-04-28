@@ -10781,8 +10781,8 @@ header.masthead .masthead-heading {
     overflow: hidden;
   }
   .slider-last {
-    min-width: 100%;
-    max-width: 100%;
+    min-width: 100vw;
+    max-width: 100vw;
     overflow: hidden;
   }
   .slider span {
@@ -10804,7 +10804,7 @@ header.masthead .masthead-heading {
   }
   #slider-container-2{
     height: auto;
-    width: 100%; 
+    width: 1000vw; 
     top: 5808px;
     overflow: hidden;
   }
@@ -10826,8 +10826,8 @@ header.masthead .masthead-heading {
     overflow: hidden;
   }
   .slider2-last {
-    min-width: 100%;
-    max-width: 100%;
+    min-width: 100vw;
+    max-width: 100vw;
     overflow: hidden;
     
   }
@@ -10871,8 +10871,8 @@ header.masthead .masthead-heading {
     overflow: hidden;
   }
   .slider3-last {
-    min-width: 100%;
-    max-width: 100%;
+    min-width: 100vw;
+    max-width: 100vw;
     overflow: hidden;
   }
   .slider3 span {
