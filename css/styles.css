@@ -59,6 +59,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
+  overflow-y: scroll;
+overflow-x: hidden;
   font-family: "Helvetica Neue";
   line-height: 1.5;
   color: #212529;
