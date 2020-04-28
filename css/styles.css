@@ -58,7 +58,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
-/*   overflow-x: hidden !important; */
   margin: 0;
   font-family: "Helvetica Neue";
   line-height: 1.5;
@@ -151,6 +150,7 @@ sup {
 sub {
   bottom: -0.25em;
 }
+
 sup {
   top: -0.5em;
 }
@@ -716,7 +716,6 @@ pre code {
 }
 
 .container {
-  overflow-x: hidden !important;
   width: 100%;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
