@@ -724,14 +724,6 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-@media screen and (max-width: 667px) {
-    body {
-        overflow-x: hidden !important;
-    }
-    .container {
-        max-width: 100% !important;
-        overflow-x: hidden !important;  }
-  }
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
