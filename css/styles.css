@@ -456,6 +456,7 @@ ul {
   height:100%;
   max-width: 100%
   min-width:25%;
+  border: 4px white;
 }
 
 .slider {
@@ -493,14 +494,14 @@ ul {
   
   .slider .slide img {
     height: 85%;
-    width: 85%;
+    width: 75%;
   }
   @keyframes scroll {
     0%{
         transform: translateX(0%);
     }
     100%{
-      transform:translateX(calc(-250px * 10));
+      transform:translateX(calc(-250px * 20));
     }
   }
 
@@ -519,7 +520,7 @@ ul {
     height: 100px;
     position: absolute;
     width: 200px;
-    z-index: 2;
+    z-index: 4;
   }
   
   .slider2::before {
@@ -529,24 +530,24 @@ ul {
   .slider2::after {
     right: 0;
     top: 0;
-    transform: rotateZ(180deg);
+    transform: rotateZ(360deg);
   }
   .slider2 .slide2-track {
-    animation: scroll 40s linear infinite;
+    animation: scroll 20s linear infinite;
     display: flex;
-    width: calc(1000px * 30);
+    width: calc(250px * 20);
   }
   
   .slider2 .slide2 img {
     height: 85%;
-    width: 85%;
+    width: 75%;
   }
-  @keyframes scroll {
+  @keyframes scroll2 {
     0%{
         transform: translateX(0%);
     }
     100%{
-      transform:translateX(calc(-250px * 17));
+      transform:translateX(calc(250px * 14));
     }
   }
 
@@ -581,19 +582,19 @@ ul {
   .slider3 .slide3-track {
     animation: scroll 40s linear infinite;
     display: flex;
-    width: calc(250px * 30);
+    width: calc(250px * 20);
   }
   
   .slider3 .slide3 img {
     height: 85%;
-    width: 85%;
+    width: 75%;
   }
-  @keyframes scroll {
+  @keyframes scroll3 {
     0%{
         transform: translateX(0%);
     }
     100%{
-      transform:translateX(calc(-250px * 10));
+      transform:translateX(calc(-250px * 7));
     }
   }
 
