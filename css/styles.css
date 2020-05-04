@@ -10818,6 +10818,16 @@ header.masthead .masthead-heading {
   max-width: 100%
   min-width:25%;
 }
+@media screen and (max-width: 600px) {
+  #canvas1 {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
 
 
 section#contact {
