@@ -76,6 +76,6 @@ function displayContent() {
 
 document.addEventListener("DOMContentLoaded", function() {
     loader = document.getElementById('loader');
-    loadNow(1);
+    loadNow(4);
    
 });
