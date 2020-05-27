@@ -10770,8 +10770,7 @@ header.masthead .masthead-heading {
 .container-img .box.b,
 .container-img .box.f,
 .container-img .box.h,
-.container-img .box.n,
-.container-img .box.m 
+.container-img .box.m
 {
   grid-column: span 2;
 }
@@ -10791,7 +10790,7 @@ header.masthead .masthead-heading {
       "1fr 1fr 1fr" 250px
       "1fr 1fr 1fr" 250px
       "1fr 1fr 1fr" 250px
-       "1fr 1fr 1fr" 250px;
+      ;
   }
 }
 @media (max-width: 768px) {
@@ -10807,7 +10806,7 @@ header.masthead .masthead-heading {
       "1fr 1fr" 200px;
   }
 }
-.container-img .box.m {
+.container-img .box.l {
   grid-column: span 1;
 }
 
